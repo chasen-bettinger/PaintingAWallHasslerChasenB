@@ -10,9 +10,9 @@ namespace PaintingAWallHasslerChasenB
     {
         private double wallWidth;
         private double wallHeight;
-        private uint numOfDoorways;
+        private int numOfDoorways;
 
-        public Wall(double wallWidth, double wallHeight, uint numOfDoorways)
+        public Wall(double wallWidth, double wallHeight, int numOfDoorways)
         {
             this.wallWidth = wallWidth;
             this.wallHeight = wallHeight;

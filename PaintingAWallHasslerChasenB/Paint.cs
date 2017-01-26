@@ -8,9 +8,8 @@ namespace PaintingAWallHasslerChasenB
 {
     class Paint
     {
-
         private double costOfPaint;
-        private uint numOfGallons;
+        private const double GALLONAREA = 350.0;
 
         public Paint(double costOfPaint)
         {
@@ -19,7 +18,7 @@ namespace PaintingAWallHasslerChasenB
 
         public double getNumOfGallons(double areaToPaint)
         {
-            return areaToPaint / 350.0;
+            return areaToPaint / GALLONAREA;
         }
 
         public double getCostOfPaint(double numOfGallons)
