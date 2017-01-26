@@ -24,7 +24,7 @@ namespace PaintingAWallHasslerChasenB
             return wallWidth * wallHeight;
         }
 
-        public uint getAreaOfDoorways()
+        public int getAreaOfDoorways()
         {
             return numOfDoorways * 14;
         }
