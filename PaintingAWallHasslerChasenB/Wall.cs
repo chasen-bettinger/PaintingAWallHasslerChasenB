@@ -8,18 +8,18 @@ namespace PaintingAWallHasslerChasenB
 {
     class Wall
     {
-        private uint wallWidth;
-        private uint wallHeight;
+        private double wallWidth;
+        private double wallHeight;
         private uint numOfDoorways;
 
-        public Wall(uint wallWidth, uint wallHeight, uint numOfDoorways)
+        public Wall(double wallWidth, double wallHeight, uint numOfDoorways)
         {
             this.wallWidth = wallWidth;
             this.wallHeight = wallHeight;
             this.numOfDoorways = numOfDoorways;
         }
 
-        public uint getWallArea()
+        public double getWallArea()
         {
             return wallWidth * wallHeight;
         }

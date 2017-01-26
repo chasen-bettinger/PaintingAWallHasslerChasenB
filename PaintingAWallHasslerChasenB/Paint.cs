@@ -17,14 +17,14 @@ namespace PaintingAWallHasslerChasenB
             this.costOfPaint = costOfPaint;
         }
 
-        public uint getNumOfGallons(uint areaToPaint)
+        public double getNumOfGallons(double areaToPaint)
         {
-            return areaToPaint / 350;
+            return areaToPaint / 350.0;
         }
 
-        public double getCostOfPaint(uint numOfGallons)
+        public double getCostOfPaint(double numOfGallons)
         {
-            return (double) costOfPaint * numOfGallons;
+            return costOfPaint * numOfGallons;
         }
     }
 }
